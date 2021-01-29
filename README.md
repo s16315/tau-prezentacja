@@ -1,9 +1,10 @@
 # JasmineJsx
-`https://github.com/theasci/jasminejsx`
+https://github.com/theasci/jasminejsx
 
 ### Deskrypcja
 
-Biblioteka umożliwiająca tworzenie testów jednostkowych dla skryptów i rozszerzeń (_Extension_) do pakietu _Adobe CC_ napisanych w _ExtendScript_. Rozwiązanie zostalo oparte o framework _Jasmine_ (`https://jasmine.github.io`).
+Biblioteka umożliwiająca tworzenie testów jednostkowych dla skryptów i rozszerzeń (_Extension_) do programów z pakietu _Adobe CC_ napisanych w _ExtendScript_.
+Rozwiązanie zostalo oparte o framework _Jasmine_ (https://jasmine.github.io).
 
 ### Instalacja
 
@@ -11,7 +12,7 @@ Skrypty w ExtendScript nie używają Node JS, rozszerzenia mogą go używać, al
 JasmnineJsx jest modułem Node i wymaga go do działania. 
 Jednak nawet tworząc strukturę projektu dla rozszerzenia, trzeba oddzielić Node tworzący warstwę narzędziową dla dewelopera od Node działającego we wtyczce.
 
-1. Instalujemy Node (`https://nodejs.org/en/`) jako warstwę narzędziową projektu.
+1. Instalujemy Node (https://nodejs.org/en/) jako warstwę narzędziową projektu.
 2. Instalujemy JasmineJsx z lini poleceń `npm install jasminejsx` lub dodajemy odpowiednią zależność do konfiguracji Node:
    
    `"devDependencies": {`
@@ -21,6 +22,8 @@ Jednak nawet tworząc strukturę projektu dla rozszerzenia, trzeba oddzielić No
    `}`
 
     i wydajemy polecenie `npm install`.
+
+### Konfiguracja
 
 ### Tworzenie testów
 
