@@ -1,0 +1,14 @@
+{
+  "name": "extendscript-app",
+  "version": "1.0.0",
+  "description": "Adobe ExtendScript application for Adobe CC width JasmineJsx tests.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tomasz Mnich",
+  "license": "ISC",
+  "devDependencies": {
+    "jasminejsx": "^0.1.0"
+  }
+}
